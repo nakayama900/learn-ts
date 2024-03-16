@@ -1,0 +1,26 @@
+{
+  "name": "canvas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "font": "tsx scripts/google-font.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "fastify": "^4.26.2",
+    "isomorphic-unfetch": "^4.0.2",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.28",
+    "google-fonts-helper": "^3.5.0"
+  }
+}
